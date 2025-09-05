@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/World-One-Teachers-Day/static/css/main.67bdf5bd.css",
-    "main.js": "/World-One-Teachers-Day/static/js/main.04f5f770.js",
+    "main.js": "/World-One-Teachers-Day/static/js/main.a921feb2.js",
     "static/media/teach23.jpg": "/World-One-Teachers-Day/static/media/teach23.8ff5744520a68f9c49a3.jpg",
     "static/media/teach20.jpg": "/World-One-Teachers-Day/static/media/teach20.8d9cce9404096ad6a7a1.jpg",
     "static/media/teach33.jpg": "/World-One-Teachers-Day/static/media/teach33.8ae416889c702c36418f.jpg",
@@ -47,20 +47,16 @@
     "static/media/WhatsApp Image 2025-09-04 at 2.26.14 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 2.26.14 PM.97ef57030f2efcf95ac5.jpeg",
     "static/media/WhatsApp Image 2025-09-04 at 6.50.06 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 6.50.06 PM.109c4b5fe47bd9fbd2ca.jpeg",
     "static/media/WhatsApp Image 2025-09-04 at 2.54.13 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 2.54.13 PM.7389da2aa4029f06f48f.jpeg",
-    "static/media/video5-thumb.jpg": "/World-One-Teachers-Day/static/media/video5-thumb.cc109c44717ad49733b4.jpg",
     "static/media/WhatsApp Image 2025-09-04 at 2.42.07 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 2.42.07 PM.0fe7469e446bc2f34e6f.jpeg",
     "static/media/WhatsApp Image 2025-09-04 at 2.26.49 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 2.26.49 PM.167cae5d16b9379bb666.jpeg",
-    "static/media/video6-thumb.jpg": "/World-One-Teachers-Day/static/media/video6-thumb.5f051905ab140466f7bf.jpg",
     "static/media/3a.jpeg": "/World-One-Teachers-Day/static/media/3a.10fe12eab0cddd827036.jpeg",
     "static/media/video1-thumb.jpg": "/World-One-Teachers-Day/static/media/video1-thumb.6c72844c8c0b53874b83.jpg",
     "static/media/video2-thumb.jpg": "/World-One-Teachers-Day/static/media/video2-thumb.a4dfb7d60bfc43eccada.jpg",
     "static/media/teach79.jpg": "/World-One-Teachers-Day/static/media/teach79.1c3aa4a8b5af874e8216.jpg",
     "static/media/teacher letter3.jpg": "/World-One-Teachers-Day/static/media/teacher letter3.1dabfa4eb65d0444531b.jpg",
     "static/media/7d.jpeg": "/World-One-Teachers-Day/static/media/7d.2f0cbb32167057a4345f.jpeg",
-    "static/media/video7-thumb.jpg": "/World-One-Teachers-Day/static/media/video7-thumb.bd03e22e92e7ef18b8a7.jpg",
     "static/media/7b.jpeg": "/World-One-Teachers-Day/static/media/7b.10c5aa3d20573b21d7ce.jpeg",
     "static/media/WhatsApp Image 2025-09-04 at 2.53.37 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 2.53.37 PM.ffb588e8b158e29fca70.jpeg",
-    "static/media/video8-thumb.jpg": "/World-One-Teachers-Day/static/media/video8-thumb.91fd3ae8bdf37179229e.jpg",
     "static/media/WhatsApp Image 2025-09-04 at 3.02.13 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 3.02.13 PM.4c4f91136f1fc6f7b4dc.jpeg",
     "static/media/WhatsApp Image 2025-09-04 at 3.02.21 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 3.02.21 PM.cf34051664e2e5ec888c.jpeg",
     "static/media/WhatsApp Image 2025-09-04 at 2.30.47 PM.jpeg": "/World-One-Teachers-Day/static/media/WhatsApp Image 2025-09-04 at 2.30.47 PM.706aadbcc33f1ad4cd76.jpeg",
@@ -153,10 +149,10 @@
     "static/media/teach84.jpg": "/World-One-Teachers-Day/static/media/teach84.e815b0409a0a77784851.jpg",
     "index.html": "/World-One-Teachers-Day/index.html",
     "main.67bdf5bd.css.map": "/World-One-Teachers-Day/static/css/main.67bdf5bd.css.map",
-    "main.04f5f770.js.map": "/World-One-Teachers-Day/static/js/main.04f5f770.js.map"
+    "main.a921feb2.js.map": "/World-One-Teachers-Day/static/js/main.a921feb2.js.map"
   },
   "entrypoints": [
     "static/css/main.67bdf5bd.css",
-    "static/js/main.04f5f770.js"
+    "static/js/main.a921feb2.js"
   ]
 }
