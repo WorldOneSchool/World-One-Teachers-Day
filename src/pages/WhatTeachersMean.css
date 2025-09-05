@@ -1,0 +1,282 @@
+/* Teachers' Day - YouTube Premium Style Video Grid */
+
+.teachers-meaning-bg {
+  position: relative;
+  min-height: 85vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #181d2c;
+}
+
+.teachers-meaning-video-bg {
+  position: absolute;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  filter: blur(2.5px) brightness(0.45) saturate(1.2);
+  pointer-events: none;
+}
+
+.teachers-meaning-overlay {
+  position: absolute;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: linear-gradient(135deg, rgba(137,247,254,0.22) 0%, rgba(24,29,44,0.92) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.teachers-meaning-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 18px 32px 18px;
+  min-height: 80vh;
+}
+
+.teachers-meaning-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #f2f2f2;
+  margin-bottom: 18px;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.17);
+  letter-spacing: 1.7px;
+  text-align: center;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.teachers-meaning-desc {
+  font-size: 1.32rem;
+  color: #e3e3ee;
+  margin-bottom: 28px;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.teachers-messages {
+  margin: 32px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.teachers-message {
+  font-size: 1.18rem;
+  color: #fff;
+  background: rgba(30,144,255,0.13);
+  border-radius: 16px;
+  box-shadow: 0 3px 12px rgba(10,90,255,0.10);
+  padding: 10px 24px;
+  display: flex; align-items: center; gap: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.teachers-popup-hint {
+  margin-top: 32px;
+  font-size: 1rem;
+  color: #1e90ff;
+  background: rgba(255,255,255,0.10);
+  border-radius: 8px;
+  padding: 7px 16px;
+  box-shadow: 0 1px 8px rgba(100,170,255,0.08);
+  font-weight: 600;
+}
+
+/* --- YOUTUBE PREMIUM STYLE VIDEO GRID --- */
+.teachers-tribute-videos {
+  margin: 38px auto 0 auto;
+  width: 100%;
+  max-width: 1350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teachers-tribute-videos h2 {
+  color: #1e90ff;
+  font-weight: 800;
+  font-size: 2.1rem;
+  text-align: center;
+  margin-bottom: 36px;
+  letter-spacing: 1.1px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  text-shadow: 0 2px 12px #1e90ff25;
+}
+
+.teachers-tribute-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 44px 36px;
+  width: 100%;
+  padding: 0 12px;
+  margin-bottom: 24px;
+}
+
+.teachers-tribute-card {
+  background: linear-gradient(135deg, #21222e 0%, #23243c 100%);
+  border-radius: 20px;
+  box-shadow: 0 3px 24px #00a0e334, 0 1px 0 #101;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  transition: box-shadow 0.19s, transform 0.16s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.teachers-tribute-card:hover {
+  box-shadow: 0 12px 36px #1e90ff58, 0 1px 0 #111;
+  transform: translateY(-7px) scale(1.045);
+}
+.teachers-tribute-card video {
+  width: 100%;
+  height: 177px;
+  background: #222;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  transition: filter 0.18s;
+  box-shadow: 0 2px 8px #1e90ff20;
+}
+.teachers-tribute-card:hover video {
+  filter: brightness(1.13) drop-shadow(0 3px 18px #1e90ff46);
+}
+.teachers-tribute-card .card-details {
+  padding: 19px 18px 15px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: linear-gradient(180deg, #23243a88 0%, #23243aff 100%);
+  border-radius: 0 0 20px 20px;
+}
+.teachers-tribute-card .card-name {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 4px;
+  letter-spacing: 0.7px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+.teachers-tribute-card .card-message {
+  font-size: 1.09rem;
+  color: #1e90ff;
+  font-style: italic;
+  margin-bottom: 0;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.teachers-tribute-card .card-icon {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  font-size: 1.65rem;
+  color: #ff69b4;
+  opacity: 0.95;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 6px #ff69b4a5);
+}
+
+/* Animated floating hearts - unchanged */
+.floating-hearts {
+  position: absolute;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  pointer-events: none;
+  z-index: 3;
+}
+.heart {
+  position: absolute;
+  font-size: 2.3rem;
+  animation: floatHearts 6s infinite linear;
+}
+.heart1 { left: 10vw; top: 70vh; animation-delay: 0s; color: #ff69b4; }
+.heart2 { left: 25vw; top: 85vh; animation-delay: 1s; color: #ffb347; }
+.heart3 { left: 60vw; top: 75vh; animation-delay: 2s; color: #ff69b4; }
+.heart4 { left: 80vw; top: 90vh; animation-delay: 2.7s; color: #ffb347; }
+.heart5 { left: 40vw; top: 95vh; animation-delay: 1.7s; color: #ff69b4; }
+.heart6 { left: 70vw; top: 60vh; animation-delay: 3.2s; color: #ffb347; }
+@keyframes floatHearts {
+  0% { opacity: 0; transform: translateY(0) scale(1);}
+  10% { opacity: 0.6; }
+  25% { opacity: 1; }
+  90% { opacity: 0.6; }
+  100% { opacity: 0; transform: translateY(-180px) scale(1.2);}
+}
+
+/* Modal Styles */
+.teachers-modal-bg {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(30,40,70,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  backdrop-filter: blur(3px);
+  cursor: pointer;
+}
+
+.teachers-modal-video-wrap {
+  position: relative;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 8px 40px rgba(40,150,255,0.18);
+  padding: 18px;
+  max-width: 90vw;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+}
+
+.teachers-modal-video {
+  width: 70vw;
+  max-width: 780px;
+  max-height: 70vh;
+  border-radius: 18px;
+  outline: none;
+  background: #222;
+  display: block;
+}
+
+.teachers-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #263c62;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+.teachers-modal-close:hover { color: #ff3333; }
+
+@media (max-width: 1200px) {
+  .teachers-tribute-grid {
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 28px 14px;
+  }
+  .teachers-tribute-videos {
+      max-width: 98vw;
+  }
+  .teachers-tribute-card video {
+      height: 140px;
+  }
+}
+@media (max-width: 700px) {
+  .teachers-meaning-title { font-size: 1.5rem; }
+  .teachers-message { font-size: 1rem; padding: 8px 10px;}
+  .teachers-modal-video { width: 99vw; max-width: 99vw;}
+  .teachers-tribute-card { width: 99vw; max-width: 400px;}
+  .teachers-tribute-grid { grid-template-columns: 1fr; gap: 18px; }
+  .teachers-tribute-card video { height: 180px; }
+  .teachers-tribute-card .card-details { padding: 15px 12px 13px 12px; }
+}
